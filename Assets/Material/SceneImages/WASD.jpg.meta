@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b8d2c0f394dbb4185976e16aa37b155e
+guid: 97f965c3eb990a8dd8887c8ba35336ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4844175837551891867
-    second: snap_20260204_195006_0
+      213: -8912760082684505365
+    second: WASD_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snap_20260204_195006_0
+      name: WASD_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 526
-        height: 238
+        width: 1920
+        height: 711
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b959fca3248f93340800000000000000
-      internalID: 4844175837551891867
+      spriteID: be21f473de38f4480800000000000000
+      internalID: -8912760082684505365
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      snap_20260204_195006_0: 4844175837551891867
+      WASD_0: -8912760082684505365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

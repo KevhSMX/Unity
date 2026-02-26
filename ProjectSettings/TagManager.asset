@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Terra
+  - WIN
+  - Enemic
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 4030532795
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
