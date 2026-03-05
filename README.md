@@ -31,5 +31,7 @@ pantalla de recàrrega del joc.
 
 #### OPCIONAL:
 • Crear animacions per al personatge principal o enemics.
+
 • Mostrar màximes puntuacions a la pantalla de recàrrega.
+
 • Altres millores
