@@ -13,13 +13,13 @@ public class EnemyFollow : MonoBehaviour
         // Solo se mueve si el jugador existe
         if (player != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, velocitat * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.position, velocitat * Time.deltaTime); // Mira cada posició i dibuixa una linea que serveix per el recorregut del enemic al jugador.
         }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Time.time >= seguentAtac)
+        if (collision.CompareTag("Player") && Time.time >= seguentAtac) //Revisa si colisiona per treure una vida
         {
             scriptVides.vides -= 1;
             seguentAtac = Time.time + tempsInmune;
