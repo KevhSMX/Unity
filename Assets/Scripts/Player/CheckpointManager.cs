@@ -7,7 +7,7 @@ public class CheckpointManager : MonoBehaviour
 
     void Start()
     {
-        if (tieneCheckpoint)
+        if (tieneCheckpoint) //Cambiem la posicio de inici si hi ha checkpoint
         {
             transform.position = posicionGuardada;
         }
