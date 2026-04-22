@@ -7,7 +7,7 @@ public class StartButton : MonoBehaviour
 {
     public string SceneName;
     
-    public void NextScene()
+    public void NextScene() //Començcar el joc
     {
         CheckpointManager.tieneCheckpoint = false;
         SceneManager.LoadScene(SceneName);
