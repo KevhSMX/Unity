@@ -9,6 +9,6 @@ public class RestartButton : MonoBehaviour
     
     public void NextScene()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneName); //Tornem a jugar
     }
 }
