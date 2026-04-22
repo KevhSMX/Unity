@@ -9,7 +9,7 @@ public class InstructionsButton : MonoBehaviour
     
     public void NextScene()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneName); //Cambiem de escena a la de les intruccions
     }
 }
 
