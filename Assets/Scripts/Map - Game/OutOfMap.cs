@@ -8,14 +8,14 @@ public class OutOfMap : MonoBehaviour
 
 private void OnTriggerEnter2D(Collider2D other)
 {
-    if (other.CompareTag("Player") && !jaHaChocat)
+    if (other.CompareTag("Player") && !jaHaChocat) // Mirem si el jugador ja a chocat per no fer un doble cop
     {
         jaHaChocat = true;
-        scriptVides.vides -= 1;
+        scriptVides.vides -= 1; //Treiem una vida
 
-        if (CheckpointManager.tieneCheckpoint)
+        if (CheckpointManager.tieneCheckpoint) //Si te un checkpoint apareix en ell, si no en el respawn
         {
-            other.transform.position = CheckpointManager.posicionGuardada;
+            other.transform.position = CheckpointManager.posicionGuardada; 
         }
         else
         {
@@ -24,7 +24,7 @@ private void OnTriggerEnter2D(Collider2D other)
     }
 }
 
-    void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision) //Per treure el ja a chocat si no esta colisionant ja
     {
         if (collision.CompareTag("Player"))
         {
