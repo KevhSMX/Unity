@@ -7,7 +7,7 @@ public class StartManu : MonoBehaviour
 {
     public string SceneName;
     
-    public void NextScene()
+    public void NextScene() //Tornar al Menu principal
     {
         SceneManager.LoadScene(SceneName);
     }
